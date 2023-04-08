@@ -1,0 +1,22 @@
+[
+{
+  "email": "amar+staging@beebolt.com",
+  "password": "123456789",
+  "expected": "Dashboard"
+},
+{
+  "email": "amar+sta456ging@beebolt.com",
+  "password": "123456789",
+  "expected": "Credentials not valid"
+},
+{
+  "email": "amar+staging@beebolt.com",
+  "password": "124578fvdh",
+  "expected": "Credentials not valid"
+},
+{
+  "email": "amar+staginrtrg@beebolt.com",
+  "password": "124578fvdh",
+  "expected": "Credentials not valid"
+}
+]

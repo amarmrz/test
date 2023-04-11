@@ -2,7 +2,7 @@ import dashboardPage from "../PageObjects/Dashboard"
 import loginPage from "../PageObjects/LoginPage"
 
 describe('Verify the Login functionality', function()  {
-    it('Login as admin the valide and invalide credentials', ()=>  
+    it('Login as admin the valide and invalide credentials',{ tags: '@Smoke'}, ()=>  
     {
         Cypress.on('uncaught:exception', (err, runnable) => {
             return false

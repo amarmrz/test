@@ -13,7 +13,9 @@ class loginPage {
     getToastMessage(){
        return cy.get('.ant-notification-notice-description')
     }
-
+    clickOnSignUpBtn(){
+        cy.get('a[href="/signup"]').click()
+     }
 
 }
 export default loginPage;

@@ -27,15 +27,5 @@ describe('Verify the Logout functionality', function()
                 dash.getLogIntext().should('have.text',"Log In")
   
      })
-    it("Just dummy test for tags", { tags: 'Regression' },()=> 
-        {
-           cy.log("this regression test") 
-    })
-
-       
-    it("Just dummy test for tags", { tags: '@Smoke' },()=> 
-        {
-           cy.log("this Smoke test") 
-    })
      
  })

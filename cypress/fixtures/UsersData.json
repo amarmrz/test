@@ -1,0 +1,51 @@
+[
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Jordan", 
+  "Role":"Admin" 
+},  
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Jordan", 
+  "Role":"Customer Service" 
+},
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Jordan", 
+  "Role":"Accounts Team" 
+},
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Jordan", 
+  "Role":"Operations Team"
+},
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Jordan", 
+  "Role":"Driver Manager"
+},
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Qatar", 
+  "Role":"Admin"
+},
+{
+  "email": "omarmghofel@gmail.com",
+  "Name": "amar123",
+  "password": "Dashboard",
+  "Tenants":"Saudi Arabia", 
+  "Role":"Admin"
+}
+]

@@ -6,7 +6,7 @@ class dashboardPage {
         
     }
     clickOnLogout(){
-        cy.get(':nth-child(4) > .ant-btn').click()
+      cy.get(':nth-child(4) > .ant-btn-round').click()
         
         cy.get('button[class="ant-btn ant-btn-primary ant-btn-sm"]').click() 
     }

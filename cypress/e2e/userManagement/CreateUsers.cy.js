@@ -1,7 +1,6 @@
-
-import dashboardPage from "../PageObjects/Dashboard"
-import loginPage from "../PageObjects/LoginPage"
-import UserManagementPage from "../PageObjects/UserManagementPage"
+import dashboardPage from "../../PageObjects/Dashboard"
+import loginPage from "../../PageObjects/LoginPage"
+import UserManagementPage from "../../PageObjects/UserManagementPage"
 
 describe('Verify user managament functionality', function()  {
    
@@ -36,15 +35,14 @@ describe('Verify user managament functionality', function()  {
             US.setTenants(element.Tenants) 
             cy.get('.ant-modal-body').click()  
             US.setRole(element.Role) 
-            US.clickOnSaveBtn()  
-            US.getToastMessage().contains("Error")
+            US.clickOnSaveBtn() 
+            US.getToastMessage().contains("Succes")
             cy.wait(3000)
             dash.clickOnLogout()
                 
             });
         })
-       
-    }
-    )
+    })  
    
+    
   })

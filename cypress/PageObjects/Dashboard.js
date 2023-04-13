@@ -8,7 +8,7 @@ class dashboardPage {
     clickOnLogout(){
       cy.get(':nth-child(4) > .ant-btn-round').click()
         
-        cy.get('button[class="ant-btn ant-btn-primary ant-btn-sm"]').click() 
+        cy.xpath('//div[contains(@class,"ant-popover ant-popconfirm logout-popover-wrapper ant-popover-placement-bottom")]//span[contains(text(),"Yes")]').click({force: true}) 
     }
     getLogIntext(){
         return cy.get('.signInRetailerPage_promoSectionTitle__xUNxu > .ant-typography')

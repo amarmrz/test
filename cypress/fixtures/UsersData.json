@@ -1,51 +1,37 @@
 [
 {
-  "email": "omarmghofel@gmail.com",
+  "email": "lenegiy136@lieboe.com",
   "Name": "amar123",
-  "password": "Dashboard",
+  "password": "123456",
   "Tenants":"Jordan", 
   "Role":"Admin" 
 },  
 {
-  "email": "omarmghofel@gmail.com",
+  "email": "lenegiy138@lieboe.com",
   "Name": "amar123",
-  "password": "Dashboard",
+  "password": "123456",
   "Tenants":"Jordan", 
   "Role":"Customer Service" 
 },
 {
-  "email": "omarmghofel@gmail.com",
+  "email": "lenegiy140@lieboe.com",
   "Name": "amar123",
-  "password": "Dashboard",
+  "password": "123456",
   "Tenants":"Jordan", 
   "Role":"Accounts Team" 
 },
 {
-  "email": "omarmghofel@gmail.com",
+  "email": "lenegiy137@lieboe.com",
   "Name": "amar123",
-  "password": "Dashboard",
+  "password": "123456",
   "Tenants":"Jordan", 
   "Role":"Operations Team"
 },
 {
-  "email": "omarmghofel@gmail.com",
+  "email": "lenegiy139@lieboe.com",
   "Name": "amar123",
-  "password": "Dashboard",
+  "password": "123456",
   "Tenants":"Jordan", 
   "Role":"Driver Manager"
-},
-{
-  "email": "omarmghofel@gmail.com",
-  "Name": "amar123",
-  "password": "Dashboard",
-  "Tenants":"Qatar", 
-  "Role":"Admin"
-},
-{
-  "email": "omarmghofel@gmail.com",
-  "Name": "amar123",
-  "password": "Dashboard",
-  "Tenants":"Saudi Arabia", 
-  "Role":"Admin"
 }
 ]
